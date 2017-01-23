@@ -1,5 +1,8 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service" class="com.baidu.android.pushservice.PushService">
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
   <intent-filter>
     <action name="com.baidu.android.pushservice.action.METHOD" />
+  </intent-filter>
+  <intent-filter>
+    <action name="com.baidu.android.pushservice.action.BIND_SYNC" />
   </intent-filter>
 </prescription>
