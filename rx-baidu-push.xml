@@ -1,0 +1,5 @@
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service" class="com.baidu.android.pushservice.PushService">
+  <intent-filter>
+    <action name="com.baidu.android.pushservice.action.METHOD" />
+  </intent-filter>
+</prescription>
